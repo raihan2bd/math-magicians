@@ -26,7 +26,7 @@ export default class Calculator extends React.Component {
               %
             </button>
             <button className="btn-default btn-orange" type="button">
-              %
+              &#247;
             </button>
           </li>
           <li className="row">
