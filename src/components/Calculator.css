@@ -4,11 +4,7 @@
   background: #fff;
 }
 
-.calc__input-group {
-  width: 100%;
-}
-
-.calc__input {
+.calc__result {
   width: 100%;
   padding: 15px 8px;
   text-align: right;
@@ -38,6 +34,10 @@
   background: #e0e0e0;
 }
 
+.btn-default:active {
+  background: #bebebe;
+}
+
 .btn-default:last-child {
   border-right: none;
 }
@@ -48,4 +48,8 @@
 
 .btn-zero {
   grid-column: 1/span 2;
+}
+
+.row:last-child .btn-default {
+  border-bottom: none;
 }
