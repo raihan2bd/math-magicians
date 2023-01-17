@@ -1,7 +1,10 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 
-import Calculator from './components/Calculator';
-import './App.css';
+import Layout from './components/UI/Layout';
+import HomePage from './pages/HomePage';
+import QuotePage from './pages/QuotePage';
+import CalculatorPage from './pages/CalculatorPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,11 +14,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <Calculator />
-        </header>
-      </div>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/calculator" element={<CalculatorPage />} />
+          <Route path="/quote" element={<QuotePage />} />
+        </Routes>
+      </Layout>
     );
   }
 }

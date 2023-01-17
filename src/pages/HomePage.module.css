@@ -1,0 +1,15 @@
+.hompage_section {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hompage_section h2 {
+  font-size: 2rem;
+}
+
+.hompage_section p {
+  font-size: 1rem;
+}

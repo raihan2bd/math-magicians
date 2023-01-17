@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background: #fff;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.nav_brand h1 a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #f5913e;
+}
+
+.nav_group {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  background: #f5913e;
+  display: block;
+  margin: 5px;
+  font-size: 1.1rem;
+}

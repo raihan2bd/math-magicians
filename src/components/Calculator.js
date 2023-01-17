@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import calculate from './logic/calculate';
+import Card from './UI/Card';
 import './Calculator.css';
 
 const Calculator = () => {
@@ -23,8 +24,10 @@ const Calculator = () => {
   const { total, next } = calculationState;
 
   return (
-    <div className="calc">
-      <p className="calc__result" type="text">{ next || total || 0}</p>
+    <Card extraclass="calc">
+      <p className="calc__result" type="text">
+        {next || total || 0}
+      </p>
       <ul className="rows">
         <li className="row">
           <button className="btn-default" type="button" onClick={clickHandler}>
@@ -36,7 +39,11 @@ const Calculator = () => {
           <button className="btn-default" type="button" onClick={clickHandler}>
             %
           </button>
-          <button className="btn-default btn-orange" type="button" onClick={clickHandler}>
+          <button
+            className="btn-default btn-orange"
+            type="button"
+            onClick={clickHandler}
+          >
             &#247;
           </button>
         </li>
@@ -50,7 +57,11 @@ const Calculator = () => {
           <button className="btn-default" type="button" onClick={clickHandler}>
             9
           </button>
-          <button className="btn-default btn-orange" type="button" onClick={clickHandler}>
+          <button
+            className="btn-default btn-orange"
+            type="button"
+            onClick={clickHandler}
+          >
             x
           </button>
         </li>
@@ -64,7 +75,11 @@ const Calculator = () => {
           <button className="btn-default" type="button" onClick={clickHandler}>
             6
           </button>
-          <button className="btn-default btn-orange" type="button" onClick={clickHandler}>
+          <button
+            className="btn-default btn-orange"
+            type="button"
+            onClick={clickHandler}
+          >
             -
           </button>
         </li>
@@ -78,23 +93,35 @@ const Calculator = () => {
           <button className="btn-default" type="button" onClick={clickHandler}>
             1
           </button>
-          <button className="btn-default btn-orange" type="button" onClick={clickHandler}>
+          <button
+            className="btn-default btn-orange"
+            type="button"
+            onClick={clickHandler}
+          >
             +
           </button>
         </li>
         <li className="row">
-          <button className="btn-default btn-zero" type="button" onClick={clickHandler}>
+          <button
+            className="btn-default btn-zero"
+            type="button"
+            onClick={clickHandler}
+          >
             0
           </button>
           <button className="btn-default" type="button" onClick={clickHandler}>
             .
           </button>
-          <button className="btn-default btn-orange" type="button" onClick={clickHandler}>
+          <button
+            className="btn-default btn-orange"
+            type="button"
+            onClick={clickHandler}
+          >
             =
           </button>
         </li>
       </ul>
-    </div>
+    </Card>
   );
 };
 
