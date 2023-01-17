@@ -1,4 +1,10 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
   margin: 0;
   font-family:
     -apple-system,
@@ -14,6 +20,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
 }
 
 code {
@@ -24,4 +32,8 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.active{
+  background: #a7520d!important;
 }
