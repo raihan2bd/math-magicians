@@ -4,7 +4,9 @@
   margin: 0;
 }
 
-body, html {
+body,
+html {
+  padding: 0;
   margin: 0;
   font-family:
     -apple-system,
@@ -20,8 +22,6 @@ body, html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
-  padding: 0;
 }
 
 code {
@@ -34,6 +34,6 @@ code {
     monospace;
 }
 
-.active{
-  background: #a7520d!important;
+.active {
+  background: #a7520d !important;
 }
