@@ -1,0 +1,44 @@
+.quote_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50vh;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_refresh {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background: #f5913e;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn_refresh:active {
+  transform: translateY(-2px);
+}
+
+.quote {
+  padding: 30px 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.quote span {
+  text-align: right;
+  margin-left: auto;
+}

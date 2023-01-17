@@ -1,0 +1,26 @@
+.calculator_section {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 20px;
+  align-items: center;
+}
+
+.calculator_page_detail {
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+}
+
+.calculator_page_detail h3 {
+  margin: 15px 0;
+}
+
+@media (min-width: 768px) {
+  .calculator_section {
+    flex-direction: row;
+    gap: 20px;
+    align-items: normal;
+    justify-content: center;
+  }
+}
