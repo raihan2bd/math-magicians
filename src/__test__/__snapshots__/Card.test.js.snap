@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Card component with snapshot should match with snapshot 1`] = `
+<div
+  className="card"
+>
+  <h1>
+    Hello from Card Component
+  </h1>
+</div>
+`;
