@@ -25,7 +25,7 @@ const Calculator = () => {
 
   return (
     <Card extraclass="calc">
-      <p className="calc__result" type="text">
+      <p data-testid="total_value" className="calc__result" type="text">
         {next || total || 0}
       </p>
       <ul className="rows">
