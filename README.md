@@ -139,8 +139,8 @@ npm test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will add math calculation functionality**
-- [ ] **I will add random math quotes**
+- [ ] **We will add api to render the random quotes**
+- [ ] **We will add more features on Homepage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
