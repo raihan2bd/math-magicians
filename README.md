@@ -113,9 +113,15 @@ npm start
 npm run build
 ```
 
+> To test this project make sure you download all the packages using `npm install`. After downloading the packages you have to navigate project directory on your terminal then enter the below command start testing:
+
+```sh
+npm test
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Abu Raihan**
 
@@ -123,7 +129,11 @@ npm run build
 - Twitter: [@twitterhandle](https://twitter.com/raihan2bd)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/raihan2bd)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Michael Amponsah**
+
+- GitHub: [@michaelamponsah](https://github.com/michaelamponsah)
+- Twitter: [@\_mikeamponsah](https://twitter.com/_mikeamponsah)
+- LinkedIn: [michaelamponsah](https://linkedin.com/in/mikeamponsah)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
