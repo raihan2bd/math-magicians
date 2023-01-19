@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing App.js with snapshot test App.js dom snapshot 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <nav
+      className="nav"
+    >
+      <div
+        className="nav_brand"
+      >
+        <h1>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Math Magicians
+          </a>
+        </h1>
+      </div>
+      <ul
+        className="nav_group"
+      >
+        <li
+          className="nav_item"
+        >
+          <a
+            aria-current="page"
+            className="nav_link active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav_link"
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav_link"
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>,
+  <main
+    className="main"
+  >
+    <div
+      className="container"
+    >
+      <section
+        className="hompage_section"
+      >
+        <h2>
+          Welcome to our page!
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis harum, quibusdam ab distinctio praesentium voluptatibus alias molestiae possimus eveniet nulla repudiandae minima corrupti quo non provident perspiciatis voluptatem at. Ratione, sit? Quam itaque vero esse, nesciunt inventore doloremque ratione ducimus non voluptatem voluptates quae illo veritatis! Illo minima rerum, illum mollitia explicabo iste, hic consequatur ipsum distinctio impedit vero! Nesciunt vel in molestias qui temporibus consectetur perferendis recusandae quos non vero. Temporibus unde similique neque maxime vero atque, rerum culpa non vel fugit, quis perferendis, eum quas repellendus voluptatem!
+        </p>
+      </section>
+    </div>
+  </main>,
+]
+`;

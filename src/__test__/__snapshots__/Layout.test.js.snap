@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Layout with snapshot shoud match with snapshot 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <nav
+      className="nav"
+    >
+      <div
+        className="nav_brand"
+      >
+        <h1>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Math Magicians
+          </a>
+        </h1>
+      </div>
+      <ul
+        className="nav_group"
+      >
+        <li
+          className="nav_item"
+        >
+          <a
+            aria-current="page"
+            className="nav_link active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav_link"
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav_link"
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>,
+  <main
+    className="main"
+  >
+    <div
+      className="container"
+    >
+      <h1>
+        Hello world
+      </h1>
+    </div>
+  </main>,
+]
+`;
+
+exports[`Test Layout with snapshot shoud render child component 1`] = `
+<h1>
+  Hello world
+</h1>
+`;
