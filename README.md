@@ -59,7 +59,7 @@
 
 > ## Project demo
 >
-> Site is under construction and the Project Demo will update soon.
+### [Live Demo](https://math-magicians-pcu3.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
